@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuControle.API", "MeuControle.API\MeuControle.API.csproj", "{4D01EC42-4B3D-40B5-B64E-8733E2D695D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuControle.BLL", "..\MeuControle.BLL\MeuControle.BLL.csproj", "{57107BC3-5B52-4341-BACF-F2C2135CD841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuControle.DAL", "..\MeuControle.DAL\MeuControle.DAL.csproj", "{D24A3342-3EC0-4551-9988-F2C5D50E7388}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4D01EC42-4B3D-40B5-B64E-8733E2D695D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D01EC42-4B3D-40B5-B64E-8733E2D695D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D01EC42-4B3D-40B5-B64E-8733E2D695D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57107BC3-5B52-4341-BACF-F2C2135CD841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57107BC3-5B52-4341-BACF-F2C2135CD841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57107BC3-5B52-4341-BACF-F2C2135CD841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57107BC3-5B52-4341-BACF-F2C2135CD841}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24A3342-3EC0-4551-9988-F2C5D50E7388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24A3342-3EC0-4551-9988-F2C5D50E7388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24A3342-3EC0-4551-9988-F2C5D50E7388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24A3342-3EC0-4551-9988-F2C5D50E7388}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
